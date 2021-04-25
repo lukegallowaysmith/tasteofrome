@@ -1,0 +1,61 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <script defer src="main.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Taste of Rome | Book</title>  
+</head>
+<header>
+    <h1>Taste of Rome</h1>
+</header>
+<nav>
+    <li><a href="Menu.html">Menu</a></li>
+    <li><a href="index.html">Book</a></li>
+</nav>
+
+    <div class="container">
+
+        <form action="" method="GET">
+
+            <div class="form-section">
+                <label for="datepicker">Select Booking Date:</label>
+                <input id="datepicker" name="date-picker" type="date"  placeholder="DD/MM/YYYY">
+            </div>
+
+            <div class="form-section">
+                <label for="name">Customer Name:</label>
+                <input id="name" type="text" name="Name" placeholder="Customer Name...">
+            </div>
+
+            <div class="form-section">
+                <label for="number">Contact Number:</label>
+                <input id="number" type="text" name="Mobile Number" placeholder="Contact Number...">
+            </div>
+
+            <div class="form-section">
+                <label for="guestnumber">Select Number of Guests:</label>
+                <select id="guestnumber" name="Number of guests">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <button type="submit">Book Now!</button>
+            </div>
+
+        </form>
+
+        <div id="error"></div>
+
+    </div>
+
+    <footer>
+        © 2021 Taste of Rome
+    </footer>
+
+</html>
